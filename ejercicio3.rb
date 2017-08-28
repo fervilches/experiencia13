@@ -12,4 +12,8 @@ h.delete(:y)
 
 puts h
 
-if h.include? :z puts 'yeeah'
+puts 'yeahh' if h.include?(:z)
+
+puts h
+
+puts h.invert
